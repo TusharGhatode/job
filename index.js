@@ -20,7 +20,7 @@ require('./config/db')
 
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://listing-job.netlify.app/',
     methods: 'GET,POST,DELETE',
     credentials: true,
     
